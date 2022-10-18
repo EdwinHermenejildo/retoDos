@@ -1,0 +1,21 @@
+El script recibe como parámetro la cantidad de puertas.
+    * Se valida que el usuario no ingrese una letra.
+    * Se valida que el número ingresado sea mayor o igual a 3
+
+    Ejemplo de ejecución:
+
+    python montyHall.py 3
+
+¿Debe el concursante mantener su elección original o escoger la otra puerta?
+    Al momento que el presentador abre una puerta cualquiera y esta no contiene al premio,
+    automaticamente le regala un 33.3% de probabilidad al participante. Así que si el participante
+    sabe de estadísticas deberá cambiar de elección.
+¿Hay alguna diferencia?
+    Si, debido a que si se queda con la opción que escogio su probabilidad de ganar sigue siendo un 33.3%.
+    Pero si cambia de elección contará con un 66.6% de probabilidad de ganar.
+
+¿qué pasaría si se agrega una puerta más (sin premio) al problema original? y que el presentador no sepa en qué puerta está el premio
+    Mientras más puertas agreguen la probabilidad de ganar se hace más pequeña.
+    En el caso de incrementar una puerta ahora la probabilidad de ganar es un 25% (100/4)
+    e irá incrementando su probabilidad de ganar mientras más puertas se abran.
+    Y en el caso de que el presentador no sepa en que puerta está el premio entonces habría dos participantes.
